@@ -1,19 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 ### ⚙️🛠️Development Tools
 
 - v.2.0.0.2
@@ -31,3 +15,20 @@ You will also see any lint errors in the console.
  <a class="pink" data-text="читать далее" href="https://prytychenko-portfolio.netlify.app/">Life Page</a>
 
 ![alt text](https://i.ibb.co/B4Rw0vH/Foto4git.png?raw=true)
+
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
