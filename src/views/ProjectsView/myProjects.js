@@ -2,20 +2,20 @@ import icecreamImg from '../../assets/images/previewProjects/icecream.png';
 import eventboosterImg from '../../assets/images/previewProjects/eventbooster.png';
 
 import webStudioImg from '../../assets/images/previewProjects/webStudio.png';
-import webDevImg from '../../assets/images/previewProjects/webDev.png';
+import l2C4WImg from '../../assets/images/previewProjects/l2c4wiki.png';
+// import barberShopImg from '../../assets/images/previewProjects/barberShop.png';
 import imageFinder from '../../assets/images/previewProjects/imageFinder.png';
-import weatherImg from '../../assets/images/previewProjects/weather.png';
 import moviesImg from '../../assets/images/previewProjects/movies.png';
 import phonebookImg from '../../assets/images/previewProjects/phonebook.png';
 
 export const ownProjects = [
   {
-    id: 'id-4',
+    id: 'id-5',
     label: 'Phonebook',
-    link: 'https://yer-phonebook.netlify.app/',
-    repo: 'https://github.com/yermakovaa/goit-react-hw-08-phonebook',
+    link: 'https://telbook4u.netlify.app/',
+    repo: 'https://github.com/2F4S7/react-phonebook-top',
     preview: phonebookImg,
-    info: 'Phonebook application with the ability to register users and work with private collections of contacts.',
+    info: 'Application "Notebook online".Fast and convenient for storing contacts online!',
     tech: [
       { id: 'id-1', name: 'HTML5' },
       { id: 'id-2', name: 'CSS3' },
@@ -29,44 +29,27 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-3',
+    id: 'id-4',
     label: 'Movies',
-    link: 'https://yer-movies.netlify.app/',
-    repo: 'https://github.com/yermakovaa/goit-react-hw-05-movies',
+    link: 'https://search-movies-top.netlify.app',
+    repo: 'https://github.com/2F4S7/react-movies',
     preview: moviesImg,
-    info: 'App for watching popular and searching films. The application uses themoviedb.org API.',
+    info: 'Real-time movie search application. Used by themoviedb.org API.',
     tech: [
       { id: 'id-1', name: 'HTML5' },
       { id: 'id-2', name: 'CSS3' },
       { id: 'id-3', name: 'React.js' },
       { id: 'id-4', name: 'AJAX' },
       { id: 'id-5', name: 'REST API' },
-      { id: 'id-6', name: 'Material-UI' },
-      { id: 'id-7', name: 'Slugify' },
     ],
   },
-  // {
-  //   id: 'id-4',
-  //   label: 'Weather',
-  //   link: 'https://yermakovaa.github.io/weather/',
-  //   repo: 'https://github.com/yermakovaa/weather',
-  //   preview: weatherImg,
-  //   info: 'Weather App. Shows the current weather in the city. The application uses Weather API.',
-  //   tech: [
-  //     { id: 'id-1', name: 'HTML5' },
-  //     { id: 'id-2', name: 'CSS3' },
-  //     { id: 'id-3', name: 'React.js' },
-  //     { id: 'id-4', name: 'AJAX' },
-  //     { id: 'id-5', name: 'REST API' },
-  //   ],
-  // },
   {
-    id: 'id-2',
+    id: 'id-3',
     label: 'Image Finder',
-    link: 'https://yermakovaa.github.io/image-finder/',
-    repo: 'https://github.com/yermakovaa/image-finder',
+    link: 'image-finder-top.netlify.app/',
+    repo: 'https://github.com/2F4S7/image-finder-top',
     preview: imageFinder,
-    info: 'Keyword search image app. The public image search service Pixabay was used for HTTP requests.',
+    info: 'Site for searching images by keyword!',
     tech: [
       { id: 'id-1', name: 'HTML5' },
       { id: 'id-2', name: 'CSS3' },
@@ -77,30 +60,34 @@ export const ownProjects = [
     ],
   },
   {
+    id: 'id-2',
+    label: 'L2C4Wiki',
+    link: 'https://2f4s7.github.io/L2C4W/',
+    repo: 'https://github.com/2F4S7/L2C4W',
+    preview: l2C4WImg,
+    info: 'Lineage 2 Wikipedia, guides, life hack - for you!',
+    tech: [
+      { id: 'id-1', name: 'HTML5' },
+      { id: 'id-2', name: 'CSS3' },
+      { id: 'id-3', name: 'Bootstrap' },
+      { id: 'id-4', name: 'JQuery' },
+      { id: 'id-5', name: 'Fancybox' },
+      { id: 'id-6', name: 'Flaticon' },
+      { id: 'id-7', name: 'Open-Iconic' },
+    ],
+  },
+  {
     id: 'id-1',
     label: 'Web Studio',
-    link: 'https://yer-web-studio.netlify.app/',
-    repo: 'https://github.com/yermakovaa/web-studio',
+    link: 'https://2f4s7.github.io/Web-Studio/',
+    repo: 'https://github.com/2F4S7/Web-Studio',
     preview: webStudioImg,
-    info: 'Responsive web page layout Web Studio - effective solutions for your business.',
+    info: 'Website for an advanced business company!',
     tech: [
       { id: 'id-1', name: 'HTML5' },
       { id: 'id-2', name: 'SCSS' },
     ],
   },
-  // {
-  //   id: 'id-1',
-  //   label: 'WebDev',
-  //   link: 'https://yermakovaa.github.io/WebDev/',
-  //   repo: 'https://github.com/yermakovaa/WebDev',
-  //   preview: webDevImg,
-  //   info: 'Layout of a web page (only desktop version).',
-  //   tech: [
-  //     { id: 'id-1', name: 'HTML5' },
-  //     { id: 'id-2', name: 'SCSS' },
-  //     { id: 'id-3', name: 'BEM' },
-  //   ],
-  // },
 ];
 
 export const commandProjects = [
