@@ -3,14 +3,14 @@ import eventboosterImg from '../../assets/images/previewProjects/eventbooster.pn
 
 import webStudioImg from '../../assets/images/previewProjects/webStudio.png';
 import l2C4WImg from '../../assets/images/previewProjects/l2c4wiki.png';
-// import barberShopImg from '../../assets/images/previewProjects/barberShop.png';
+import barberShopImg from '../../assets/images/previewProjects/barbershop.png';
 import imageFinder from '../../assets/images/previewProjects/imageFinder.png';
 import moviesImg from '../../assets/images/previewProjects/movies.png';
 import phonebookImg from '../../assets/images/previewProjects/phonebook.png';
 
 export const ownProjects = [
   {
-    id: 'id-5',
+    id: 'id-6',
     label: 'Phonebook',
     link: 'https://telbook4u.netlify.app/',
     repo: 'https://github.com/2F4S7/react-phonebook-top',
@@ -29,7 +29,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-4',
+    id: 'id-5',
     label: 'Movies',
     link: 'https://search-movies-top.netlify.app',
     repo: 'https://github.com/2F4S7/react-movies',
@@ -44,7 +44,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-3',
+    id: 'id-4',
     label: 'Image Finder',
     link: 'image-finder-top.netlify.app/',
     repo: 'https://github.com/2F4S7/image-finder-top',
@@ -60,7 +60,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-2',
+    id: 'id-3',
     label: 'L2C4Wiki',
     link: 'https://2f4s7.github.io/L2C4W/',
     repo: 'https://github.com/2F4S7/L2C4W',
@@ -77,12 +77,24 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-1',
+    id: 'id-2',
     label: 'Web Studio',
     link: 'https://2f4s7.github.io/Web-Studio/',
     repo: 'https://github.com/2F4S7/Web-Studio',
     preview: webStudioImg,
     info: 'Website for an advanced business company!',
+    tech: [
+      { id: 'id-1', name: 'HTML5' },
+      { id: 'id-2', name: 'SCSS' },
+    ],
+  },
+  {
+    id: 'id-1',
+    label: 'Barbershop',
+    link: 'https://2f4s7.github.io/Barbershop-01/',
+    repo: 'https://github.com/2F4S7/Barbershop-01',
+    preview: barberShopImg,
+    info: 'Website for salon barbershop, schedule and make an appointment with the master.',
     tech: [
       { id: 'id-1', name: 'HTML5' },
       { id: 'id-2', name: 'SCSS' },
